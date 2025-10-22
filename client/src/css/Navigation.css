@@ -1,0 +1,41 @@
+nav {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #FFD700;
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #FFD700;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links button {
+    margin: 0;
+}
